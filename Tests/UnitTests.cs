@@ -71,7 +71,7 @@ public class Multiplication
 	[TestMethod]
 	public void Multiply_Invalid_Harris() 	
 	{
-		Assert.ThrowsException<FormatException>(() => Program.Multiply("1", "1"));
+		Assert.ThrowsException<FormatException>(() => Program.Multiply("1", "c"));
 		Assert.ThrowsException<FormatException>(() => Program.Multiply("c", "1"));
 		Assert.ThrowsException<FormatException>(() => Program.Multiply("c", "c"));
     }
